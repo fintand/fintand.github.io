@@ -1,0 +1,18 @@
+---
+layout: page
+title:  "My CV"
+permalink: cv
+---
+## Fintan Dunleavy
+
+Checkout this function:
+
+{% highlight javascript %}
+function sayMyName(name) {
+	console.log(name);
+}
+{% endhighlight %}
+
+Check out the [fintan.io][fintan.io]
+
+[fintan.io]: https://fintan.io
