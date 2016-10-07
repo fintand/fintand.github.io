@@ -4,14 +4,14 @@
   {% include head.html %}
 
   <body>
+  	<div style="min-height: 100%; margin-bottom: 3em;">
+    	{% include header.html %}
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    
+    	{{ content }}
     </div>
+    
+
 
     {% include footer.html %}
 

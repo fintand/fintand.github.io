@@ -2,22 +2,11 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="container">
+	<div class="row">
+		<h2><i class="fa fa-terminal" aria-hidden="true"></i> About</h2>
+	  	<p>I'm a software developer, currently living in Dublin, Ireland.</p>
+	  	<p>Graduated from <a href="http://www.dcu.ie/" target="_blank">DCU</a> (Computer Applications Software Engineering) in 2014. Lived in Toronto for 2 years working as Web Application Devloper for <a href="http://www.canadiantire.ca" target="_blank" >Canadian Tire</a>.</p>
+	</div>
+  
 </div>
