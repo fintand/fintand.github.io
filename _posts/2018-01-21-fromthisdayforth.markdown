@@ -4,7 +4,7 @@ title:  "From This Day Forth"
 tech: "React, GatsbyJS"
 date:   2017-11-21 20:23:15 +0000
 ---
-From This Day Forth is a website for a friend who is an excellent [Humanist Celebrant](https://www.humanism.ie/). You can view the website [here](https://fromthisdayforth.ie/)
+From This Day Forth is a website for a friend who is an excellent [Humanist Celebrant](https://www.humanism.ie/). You can view the website [here](https://fromthisdayforth.ie/).
 
 As this client may want a blog in the future, I decided to use [Gatsby JS](https://www.gatsbyjs.org/).
 I know that when most people think blogs they think Wordpress.
